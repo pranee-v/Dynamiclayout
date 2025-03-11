@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Image Slider</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="slider-container">
+    <div class="slider">
+      <div class="slide active" data-caption="Rang Rover">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.j8K7q670TfVZT1dwKF4tAQHaEK&pid=Api&P=0&h=180" alt="Range rover">
+      </div>
+      <div class="slide" data-caption="Dodge">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.JJ9pPlifPD3ZKmxpJmgPPQHaEK&pid=Api&P=0&h=180" alt="Dodge">
+      </div>
+      <div class="slide" data-caption="Rollsroyce">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.UO0EV1zBYHrI-YjWhTEJhAHaE8&pid=Api&P=0&h=180" alt="Rollsroyce">
+      </div>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <button class="nav prev">&#10094;</button>
+    <button class="nav next">&#10095;</button>
+
+    <!-- Caption -->
+    <div class="caption"></div>
+
+    <!-- Thumbnail Navigation -->
+    <div class="thumbnails">
+      <img src="https://source.unsplash.com/100x50/?machu-picchu" data-index="0" alt="Thumb 1">
+      <img src="https://source.unsplash.com/100x50/?mountains" data-index="1" alt="Thumb 2">
+      <img src="https://source.unsplash.com/100x50/?beach" data-index="2" alt="Thumb 3">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
